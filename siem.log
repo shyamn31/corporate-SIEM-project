@@ -1,0 +1,678 @@
+2025-03-10 16:03:01,079 - INFO - Logging initialized
+2025-03-10 16:03:01,079 - INFO - SIEM Dashboard starting up...
+2025-03-10 16:03:01,079 - INFO - Created directory: E:\GPT SIEM project\logs
+2025-03-10 16:03:01,079 - INFO - Created directory: E:\GPT SIEM project\templates
+2025-03-10 16:03:01,082 - INFO - Created directory: E:\GPT SIEM project\static
+2025-03-10 16:03:01,082 - INFO - Created directory: E:\GPT SIEM project\static\css
+2025-03-10 16:03:01,082 - INFO - Created directory: E:\GPT SIEM project\static\js
+2025-03-10 16:03:01,082 - INFO - Generating static files for the web interface
+2025-03-10 16:03:01,087 - INFO - Static file generation complete
+2025-03-10 16:03:01,089 - INFO - No state file found at siem_state.json
+2025-03-10 16:03:01,090 - INFO - Log generator started
+2025-03-10 16:03:01,090 - INFO - Log generator thread started
+2025-03-10 16:03:01,091 - INFO - Starting SIEM service
+2025-03-10 16:03:01,091 - INFO - Web server initialized with SIEM instance
+2025-03-10 16:03:01,092 - INFO - Starting web server at http://0.0.0.0:5000
+2025-03-10 16:03:01,121 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.66:5000
+2025-03-10 16:03:01,121 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-10 16:03:01,121 - INFO -  * Restarting with stat
+2025-03-10 16:03:01,462 - INFO - Logging initialized
+2025-03-10 16:03:01,462 - INFO - SIEM Dashboard starting up...
+2025-03-10 16:03:01,462 - INFO - Generating static files for the web interface
+2025-03-10 16:03:01,467 - INFO - Static file generation complete
+2025-03-10 16:03:01,469 - INFO - No state file found at siem_state.json
+2025-03-10 16:03:01,470 - INFO - Log generator started
+2025-03-10 16:03:01,470 - INFO - Log generator thread started
+2025-03-10 16:03:01,471 - INFO - Starting SIEM service
+2025-03-10 16:03:01,471 - INFO - Web server initialized with SIEM instance
+2025-03-10 16:03:01,472 - INFO - Starting web server at http://0.0.0.0:5000
+2025-03-10 16:03:01,484 - WARNING -  * Debugger is active!
+2025-03-10 16:03:01,487 - INFO -  * Debugger PIN: 378-706-702
+2025-03-10 16:03:01,814 - WARNING - ALERT: Port Scan Detection - 234.152.215.141 - medium severity
+2025-03-10 16:03:01,865 - WARNING - ALERT: Port Scan Detection - 234.152.215.141 - medium severity
+2025-03-10 16:03:02,189 - WARNING - ALERT: Port Scan Detection - 73.236.127.67 - medium severity
+2025-03-10 16:03:02,189 - WARNING - ALERT: Port Scan Detection - 73.236.127.67 - medium severity
+2025-03-10 16:03:02,435 - WARNING - ALERT: Data Exfiltration - 10.0.0.20 - critical severity
+2025-03-10 16:03:02,435 - WARNING - ALERT: Data Exfiltration - 10.0.0.20 - critical severity
+2025-03-10 16:03:05,706 - INFO - 127.0.0.1 - - [10/Mar/2025 16:03:05] "GET / HTTP/1.1" 200 -
+2025-03-10 16:03:05,816 - INFO - 127.0.0.1 - - [10/Mar/2025 16:03:05] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-03-10 16:03:05,956 - INFO - 127.0.0.1 - - [10/Mar/2025 16:03:05] "GET /static/js/main.js HTTP/1.1" 200 -
+2025-03-10 16:03:06,196 - INFO - 127.0.0.1 - - [10/Mar/2025 16:03:06] "GET /static/js/dashboard.js HTTP/1.1" 200 -
+2025-03-10 16:03:06,272 - INFO - 127.0.0.1 - - [10/Mar/2025 16:03:06] "GET /socket.io/?EIO=4&transport=polling&t=PM0owfe HTTP/1.1" 200 -
+2025-03-10 16:03:06,329 - WARNING - ALERT: Data Exfiltration - 10.0.0.15 - critical severity
+2025-03-10 16:03:06,329 - WARNING - ALERT: Data Exfiltration - 10.0.0.15 - critical severity
+2025-03-10 16:03:06,343 - WARNING - ALERT: Suspicious Process - regsvr32.exe - high severity
+2025-03-10 16:03:06,343 - WARNING - ALERT: Suspicious Process - regsvr32.exe - high severity
+2025-03-10 16:03:06,506 - INFO - 127.0.0.1 - - [10/Mar/2025 16:03:06] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:03:06,507 - INFO - 127.0.0.1 - - [10/Mar/2025 16:03:06] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:03:06,508 - INFO - 127.0.0.1 - - [10/Mar/2025 16:03:06] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:03:06,605 - INFO - Client connected
+2025-03-10 16:03:06,609 - INFO - 127.0.0.1 - - [10/Mar/2025 16:03:06] "POST /socket.io/?EIO=4&transport=polling&t=PM0owki&sid=1P0ziLbCpq_eqHxPAAAA HTTP/1.1" 200 -
+2025-03-10 16:03:06,611 - INFO - 127.0.0.1 - - [10/Mar/2025 16:03:06] "GET /socket.io/?EIO=4&transport=polling&t=PM0owkj&sid=1P0ziLbCpq_eqHxPAAAA HTTP/1.1" 200 -
+2025-03-10 16:03:06,662 - INFO - 127.0.0.1 - - [10/Mar/2025 16:03:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-10 16:03:07,527 - WARNING - ALERT: Brute Force Attack - 187.97.238.237 - high severity
+2025-03-10 16:03:11,512 - INFO - 127.0.0.1 - - [10/Mar/2025 16:03:11] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:03:14,183 - WARNING - ALERT: Suspicious Process - powershell.exe - high severity
+2025-03-10 16:03:16,214 - INFO - 127.0.0.1 - - [10/Mar/2025 16:03:16] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:03:16,526 - INFO - 127.0.0.1 - - [10/Mar/2025 16:03:16] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:03:16,528 - INFO - 127.0.0.1 - - [10/Mar/2025 16:03:16] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:03:19,937 - WARNING - ALERT: Brute Force Attack - 73.236.127.67 - high severity
+2025-03-10 16:03:19,937 - WARNING - ALERT: Brute Force Attack - 73.236.127.67 - high severity
+2025-03-10 16:03:21,523 - INFO - 127.0.0.1 - - [10/Mar/2025 16:03:21] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:03:26,208 - INFO - 127.0.0.1 - - [10/Mar/2025 16:03:26] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:03:26,519 - INFO - 127.0.0.1 - - [10/Mar/2025 16:03:26] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:03:26,521 - INFO - 127.0.0.1 - - [10/Mar/2025 16:03:26] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:03:31,519 - INFO - 127.0.0.1 - - [10/Mar/2025 16:03:31] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:03:36,218 - INFO - 127.0.0.1 - - [10/Mar/2025 16:03:36] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:03:36,527 - INFO - 127.0.0.1 - - [10/Mar/2025 16:03:36] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:03:36,528 - INFO - 127.0.0.1 - - [10/Mar/2025 16:03:36] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:03:38,138 - INFO - Alert d8f4a74b067f46ce5547f07caad40e13 acknowledged
+2025-03-10 16:03:38,139 - INFO - 127.0.0.1 - - [10/Mar/2025 16:03:38] "POST /api/acknowledge_alert HTTP/1.1" 200 -
+2025-03-10 16:03:38,389 - INFO - 127.0.0.1 - - [10/Mar/2025 16:03:38] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:03:41,205 - INFO - 127.0.0.1 - - [10/Mar/2025 16:03:41] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:03:46,519 - INFO - 127.0.0.1 - - [10/Mar/2025 16:03:46] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:03:46,520 - INFO - 127.0.0.1 - - [10/Mar/2025 16:03:46] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:03:46,521 - INFO - 127.0.0.1 - - [10/Mar/2025 16:03:46] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:03:51,207 - INFO - 127.0.0.1 - - [10/Mar/2025 16:03:51] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:03:56,515 - INFO - 127.0.0.1 - - [10/Mar/2025 16:03:56] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:03:56,516 - INFO - 127.0.0.1 - - [10/Mar/2025 16:03:56] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:03:56,518 - INFO - 127.0.0.1 - - [10/Mar/2025 16:03:56] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:04:01,215 - INFO - 127.0.0.1 - - [10/Mar/2025 16:04:01] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:04:06,510 - INFO - 127.0.0.1 - - [10/Mar/2025 16:04:06] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:04:06,511 - INFO - 127.0.0.1 - - [10/Mar/2025 16:04:06] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:04:06,513 - INFO - 127.0.0.1 - - [10/Mar/2025 16:04:06] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:04:06,879 - INFO - Client disconnected
+2025-03-10 16:04:06,879 - INFO - 127.0.0.1 - - [10/Mar/2025 16:04:06] "GET /socket.io/?EIO=4&transport=websocket&sid=1P0ziLbCpq_eqHxPAAAA HTTP/1.1" 200 -
+2025-03-10 16:04:06,905 - INFO - 127.0.0.1 - - [10/Mar/2025 16:04:06] "GET /events HTTP/1.1" 200 -
+2025-03-10 16:04:07,196 - INFO - 127.0.0.1 - - [10/Mar/2025 16:04:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-10 16:04:07,258 - INFO - 127.0.0.1 - - [10/Mar/2025 16:04:07] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-10 16:04:07,289 - INFO - 127.0.0.1 - - [10/Mar/2025 16:04:07] "GET /static/js/events.js HTTP/1.1" 200 -
+2025-03-10 16:04:07,597 - INFO - 127.0.0.1 - - [10/Mar/2025 16:04:07] "GET /socket.io/?EIO=4&transport=polling&t=PM0p9dp HTTP/1.1" 200 -
+2025-03-10 16:04:07,604 - INFO - 127.0.0.1 - - [10/Mar/2025 16:04:07] "GET /api/events HTTP/1.1" 200 -
+2025-03-10 16:04:07,921 - INFO - Client connected
+2025-03-10 16:04:07,922 - INFO - 127.0.0.1 - - [10/Mar/2025 16:04:07] "POST /socket.io/?EIO=4&transport=polling&t=PM0p9iq&sid=png4UKgtJ2Yhj6iPAAAC HTTP/1.1" 200 -
+2025-03-10 16:04:07,924 - INFO - 127.0.0.1 - - [10/Mar/2025 16:04:07] "GET /socket.io/?EIO=4&transport=polling&t=PM0p9is&sid=png4UKgtJ2Yhj6iPAAAC HTTP/1.1" 200 -
+2025-03-10 16:04:08,165 - INFO - 127.0.0.1 - - [10/Mar/2025 16:04:08] "GET /socket.io/?EIO=4&transport=polling&t=PM0p9nv&sid=png4UKgtJ2Yhj6iPAAAC HTTP/1.1" 200 -
+2025-03-10 16:04:14,437 - INFO - 127.0.0.1 - - [10/Mar/2025 16:04:14] "GET /api/events?source=auth_log HTTP/1.1" 200 -
+2025-03-10 16:04:15,785 - INFO - 127.0.0.1 - - [10/Mar/2025 16:04:15] "GET /api/events?source=web_log HTTP/1.1" 200 -
+2025-03-10 16:04:16,023 - INFO - 127.0.0.1 - - [10/Mar/2025 16:04:16] "GET /api/events?source=firewall_log HTTP/1.1" 200 -
+2025-03-10 16:04:16,280 - INFO - 127.0.0.1 - - [10/Mar/2025 16:04:16] "GET /api/events?source=ids_log HTTP/1.1" 200 -
+2025-03-10 16:04:17,073 - INFO - 127.0.0.1 - - [10/Mar/2025 16:04:17] "GET /api/events?source=windows_log HTTP/1.1" 200 -
+2025-03-10 16:04:17,368 - INFO - 127.0.0.1 - - [10/Mar/2025 16:04:17] "GET /api/events HTTP/1.1" 200 -
+2025-03-10 16:04:19,871 - INFO - Client disconnected
+2025-03-10 16:04:19,871 - INFO - 127.0.0.1 - - [10/Mar/2025 16:04:19] "GET /socket.io/?EIO=4&transport=websocket&sid=png4UKgtJ2Yhj6iPAAAC HTTP/1.1" 200 -
+2025-03-10 16:04:20,117 - INFO - 127.0.0.1 - - [10/Mar/2025 16:04:20] "GET / HTTP/1.1" 200 -
+2025-03-10 16:04:20,192 - INFO - 127.0.0.1 - - [10/Mar/2025 16:04:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-10 16:04:20,365 - INFO - 127.0.0.1 - - [10/Mar/2025 16:04:20] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-10 16:04:20,453 - INFO - 127.0.0.1 - - [10/Mar/2025 16:04:20] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-03-10 16:04:20,453 - INFO - 127.0.0.1 - - [10/Mar/2025 16:04:20] "GET /socket.io/?EIO=4&transport=polling&t=PM0pCqH HTTP/1.1" 200 -
+2025-03-10 16:04:20,674 - INFO - Client connected
+2025-03-10 16:04:20,674 - INFO - 127.0.0.1 - - [10/Mar/2025 16:04:20] "POST /socket.io/?EIO=4&transport=polling&t=PM0pCre&sid=GbWA9vhXA44HJTF3AAAE HTTP/1.1" 200 -
+2025-03-10 16:04:20,765 - INFO - 127.0.0.1 - - [10/Mar/2025 16:04:20] "GET /socket.io/?EIO=4&transport=polling&t=PM0pCrf&sid=GbWA9vhXA44HJTF3AAAE HTTP/1.1" 200 -
+2025-03-10 16:04:20,766 - INFO - 127.0.0.1 - - [10/Mar/2025 16:04:20] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:04:20,767 - INFO - 127.0.0.1 - - [10/Mar/2025 16:04:20] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:04:20,768 - INFO - 127.0.0.1 - - [10/Mar/2025 16:04:20] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:04:20,795 - INFO - 127.0.0.1 - - [10/Mar/2025 16:04:20] "GET /socket.io/?EIO=4&transport=polling&t=PM0pCwu&sid=GbWA9vhXA44HJTF3AAAE HTTP/1.1" 200 -
+2025-03-10 16:04:25,776 - INFO - 127.0.0.1 - - [10/Mar/2025 16:04:25] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:04:30,471 - INFO - 127.0.0.1 - - [10/Mar/2025 16:04:30] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:04:30,783 - INFO - 127.0.0.1 - - [10/Mar/2025 16:04:30] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:04:30,785 - INFO - 127.0.0.1 - - [10/Mar/2025 16:04:30] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:04:35,772 - INFO - 127.0.0.1 - - [10/Mar/2025 16:04:35] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:04:40,476 - INFO - 127.0.0.1 - - [10/Mar/2025 16:04:40] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:04:40,784 - INFO - 127.0.0.1 - - [10/Mar/2025 16:04:40] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:04:40,786 - INFO - 127.0.0.1 - - [10/Mar/2025 16:04:40] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:04:45,770 - INFO - 127.0.0.1 - - [10/Mar/2025 16:04:45] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:04:50,472 - INFO - 127.0.0.1 - - [10/Mar/2025 16:04:50] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:04:50,783 - INFO - 127.0.0.1 - - [10/Mar/2025 16:04:50] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:04:50,785 - INFO - 127.0.0.1 - - [10/Mar/2025 16:04:50] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:04:55,782 - INFO - 127.0.0.1 - - [10/Mar/2025 16:04:55] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:05:00,472 - INFO - 127.0.0.1 - - [10/Mar/2025 16:05:00] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:05:00,775 - INFO - 127.0.0.1 - - [10/Mar/2025 16:05:00] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:05:00,778 - INFO - 127.0.0.1 - - [10/Mar/2025 16:05:00] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:05:05,779 - INFO - 127.0.0.1 - - [10/Mar/2025 16:05:05] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:05:10,468 - INFO - 127.0.0.1 - - [10/Mar/2025 16:05:10] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:05:10,774 - INFO - 127.0.0.1 - - [10/Mar/2025 16:05:10] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:05:10,776 - INFO - 127.0.0.1 - - [10/Mar/2025 16:05:10] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:05:11,584 - WARNING - ALERT: Brute Force Attack - 119.3.117.24 - high severity
+2025-03-10 16:05:11,585 - WARNING - ALERT: Brute Force Attack - 119.3.117.24 - high severity
+2025-03-10 16:05:15,772 - INFO - 127.0.0.1 - - [10/Mar/2025 16:05:15] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:05:20,467 - INFO - 127.0.0.1 - - [10/Mar/2025 16:05:20] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:05:20,593 - WARNING - ALERT: Brute Force Attack - 80.138.247.150 - high severity
+2025-03-10 16:05:20,770 - INFO - 127.0.0.1 - - [10/Mar/2025 16:05:20] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:05:20,771 - INFO - 127.0.0.1 - - [10/Mar/2025 16:05:20] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:05:24,552 - INFO - SIEM state saved to siem_state.json
+2025-03-10 16:05:24,561 - INFO - SIEM service stopped
+2025-03-10 16:05:24,583 - INFO - Log generator stopped
+2025-03-10 16:05:24,635 - INFO - SIEM state saved to siem_state.json
+2025-03-10 16:05:24,662 - INFO - SIEM service stopped
+2025-03-10 16:05:24,852 - INFO - Log generator stopped
+2025-03-10 16:08:11,456 - INFO - Logging initialized
+2025-03-10 16:08:11,456 - INFO - SIEM Dashboard starting up...
+2025-03-10 16:08:11,457 - INFO - Generating static files for the web interface
+2025-03-10 16:08:11,463 - INFO - Static file generation complete
+2025-03-10 16:08:11,486 - INFO - SIEM state loaded from siem_state.json
+2025-03-10 16:08:11,487 - INFO - Log generator started
+2025-03-10 16:08:11,488 - INFO - Log generator thread started
+2025-03-10 16:08:11,489 - INFO - Starting SIEM service
+2025-03-10 16:08:11,489 - INFO - Web server initialized with SIEM instance
+2025-03-10 16:08:11,490 - INFO - Starting web server at http://0.0.0.0:5000
+2025-03-10 16:08:11,524 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.66:5000
+2025-03-10 16:08:11,524 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-10 16:08:11,524 - INFO -  * Restarting with stat
+2025-03-10 16:08:11,863 - INFO - Logging initialized
+2025-03-10 16:08:11,863 - INFO - SIEM Dashboard starting up...
+2025-03-10 16:08:11,864 - INFO - Generating static files for the web interface
+2025-03-10 16:08:11,875 - INFO - Static file generation complete
+2025-03-10 16:08:11,877 - INFO - SIEM state loaded from siem_state.json
+2025-03-10 16:08:11,878 - INFO - Log generator started
+2025-03-10 16:08:11,878 - INFO - Log generator thread started
+2025-03-10 16:08:11,879 - INFO - Starting SIEM service
+2025-03-10 16:08:11,879 - INFO - Web server initialized with SIEM instance
+2025-03-10 16:08:11,880 - INFO - Starting web server at http://0.0.0.0:5000
+2025-03-10 16:08:11,892 - WARNING -  * Debugger is active!
+2025-03-10 16:08:11,895 - INFO -  * Debugger PIN: 378-706-702
+2025-03-10 16:08:14,505 - INFO - 127.0.0.1 - - [10/Mar/2025 16:08:14] "GET / HTTP/1.1" 200 -
+2025-03-10 16:08:14,606 - INFO - 127.0.0.1 - - [10/Mar/2025 16:08:14] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-03-10 16:08:14,757 - INFO - 127.0.0.1 - - [10/Mar/2025 16:08:14] "GET /static/js/main.js HTTP/1.1" 200 -
+2025-03-10 16:08:14,892 - INFO - 127.0.0.1 - - [10/Mar/2025 16:08:14] "GET /static/js/dashboard.js HTTP/1.1" 200 -
+2025-03-10 16:08:15,068 - INFO - 127.0.0.1 - - [10/Mar/2025 16:08:15] "GET /socket.io/?EIO=4&transport=polling&t=PM0q62e HTTP/1.1" 200 -
+2025-03-10 16:08:15,204 - INFO - 127.0.0.1 - - [10/Mar/2025 16:08:15] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:08:15,205 - INFO - 127.0.0.1 - - [10/Mar/2025 16:08:15] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:08:15,206 - INFO - 127.0.0.1 - - [10/Mar/2025 16:08:15] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:08:15,294 - INFO - 127.0.0.1 - - [10/Mar/2025 16:08:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-10 16:08:15,378 - INFO - Client connected
+2025-03-10 16:08:15,379 - INFO - 127.0.0.1 - - [10/Mar/2025 16:08:15] "POST /socket.io/?EIO=4&transport=polling&t=PM0q67V&sid=feC-8t0qMVQDg1uJAAAA HTTP/1.1" 200 -
+2025-03-10 16:08:15,380 - INFO - 127.0.0.1 - - [10/Mar/2025 16:08:15] "GET /socket.io/?EIO=4&transport=polling&t=PM0q67W&sid=feC-8t0qMVQDg1uJAAAA HTTP/1.1" 200 -
+2025-03-10 16:08:15,693 - INFO - 127.0.0.1 - - [10/Mar/2025 16:08:15] "GET /socket.io/?EIO=4&transport=polling&t=PM0q6CN&sid=feC-8t0qMVQDg1uJAAAA HTTP/1.1" 200 -
+2025-03-10 16:08:19,900 - INFO - 127.0.0.1 - - [10/Mar/2025 16:08:19] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:08:20,040 - INFO - Client disconnected
+2025-03-10 16:08:20,041 - INFO - 127.0.0.1 - - [10/Mar/2025 16:08:20] "GET /socket.io/?EIO=4&transport=websocket&sid=feC-8t0qMVQDg1uJAAAA HTTP/1.1" 200 -
+2025-03-10 16:08:20,360 - INFO - 127.0.0.1 - - [10/Mar/2025 16:08:20] "GET / HTTP/1.1" 200 -
+2025-03-10 16:08:20,386 - INFO - 127.0.0.1 - - [10/Mar/2025 16:08:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-10 16:08:20,610 - INFO - 127.0.0.1 - - [10/Mar/2025 16:08:20] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-10 16:08:20,696 - INFO - 127.0.0.1 - - [10/Mar/2025 16:08:20] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-03-10 16:08:20,919 - INFO - 127.0.0.1 - - [10/Mar/2025 16:08:20] "GET /socket.io/?EIO=4&transport=polling&t=PM0q7U7 HTTP/1.1" 200 -
+2025-03-10 16:08:21,013 - INFO - 127.0.0.1 - - [10/Mar/2025 16:08:21] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:08:21,014 - INFO - 127.0.0.1 - - [10/Mar/2025 16:08:21] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:08:21,014 - INFO - 127.0.0.1 - - [10/Mar/2025 16:08:21] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:08:21,226 - INFO - Client connected
+2025-03-10 16:08:21,226 - INFO - 127.0.0.1 - - [10/Mar/2025 16:08:21] "POST /socket.io/?EIO=4&transport=polling&t=PM0q7Yv&sid=G6SqkzE6ScvjR03yAAAC HTTP/1.1" 200 -
+2025-03-10 16:08:21,227 - INFO - 127.0.0.1 - - [10/Mar/2025 16:08:21] "GET /socket.io/?EIO=4&transport=polling&t=PM0q7Yw&sid=G6SqkzE6ScvjR03yAAAC HTTP/1.1" 200 -
+2025-03-10 16:08:26,014 - INFO - 127.0.0.1 - - [10/Mar/2025 16:08:26] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:08:30,722 - INFO - 127.0.0.1 - - [10/Mar/2025 16:08:30] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:08:31,041 - INFO - 127.0.0.1 - - [10/Mar/2025 16:08:31] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:08:31,043 - INFO - 127.0.0.1 - - [10/Mar/2025 16:08:31] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:08:31,058 - INFO - Client disconnected
+2025-03-10 16:08:31,058 - INFO - 127.0.0.1 - - [10/Mar/2025 16:08:31] "GET /socket.io/?EIO=4&transport=websocket&sid=G6SqkzE6ScvjR03yAAAC HTTP/1.1" 200 -
+2025-03-10 16:08:31,385 - INFO - 127.0.0.1 - - [10/Mar/2025 16:08:31] "GET /alerts HTTP/1.1" 200 -
+2025-03-10 16:08:31,413 - INFO - 127.0.0.1 - - [10/Mar/2025 16:08:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-10 16:08:31,655 - INFO - 127.0.0.1 - - [10/Mar/2025 16:08:31] "GET /static/js/alerts.js HTTP/1.1" 200 -
+2025-03-10 16:08:31,720 - INFO - 127.0.0.1 - - [10/Mar/2025 16:08:31] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-10 16:08:32,043 - INFO - 127.0.0.1 - - [10/Mar/2025 16:08:32] "GET /socket.io/?EIO=4&transport=polling&t=PM0qABk HTTP/1.1" 200 -
+2025-03-10 16:08:32,051 - INFO - 127.0.0.1 - - [10/Mar/2025 16:08:32] "GET /api/alerts HTTP/1.1" 200 -
+2025-03-10 16:08:32,297 - INFO - Client connected
+2025-03-10 16:08:32,297 - INFO - 127.0.0.1 - - [10/Mar/2025 16:08:32] "POST /socket.io/?EIO=4&transport=polling&t=PM0qAGo&sid=kzrnug3jKSFtummeAAAE HTTP/1.1" 200 -
+2025-03-10 16:08:32,365 - INFO - 127.0.0.1 - - [10/Mar/2025 16:08:32] "GET /socket.io/?EIO=4&transport=polling&t=PM0qAGp&sid=kzrnug3jKSFtummeAAAE HTTP/1.1" 200 -
+2025-03-10 16:08:32,370 - INFO - 127.0.0.1 - - [10/Mar/2025 16:08:32] "GET /socket.io/?EIO=4&transport=polling&t=PM0qALl&sid=kzrnug3jKSFtummeAAAE HTTP/1.1" 200 -
+2025-03-10 16:08:35,333 - INFO - 127.0.0.1 - - [10/Mar/2025 16:08:35] "GET /api/alerts HTTP/1.1" 200 -
+2025-03-10 16:08:41,736 - INFO - 127.0.0.1 - - [10/Mar/2025 16:08:41] "GET /api/alerts HTTP/1.1" 200 -
+2025-03-10 16:08:49,006 - INFO - Client disconnected
+2025-03-10 16:08:49,006 - INFO - 127.0.0.1 - - [10/Mar/2025 16:08:49] "GET /socket.io/?EIO=4&transport=websocket&sid=kzrnug3jKSFtummeAAAE HTTP/1.1" 200 -
+2025-03-10 16:08:49,233 - INFO - 127.0.0.1 - - [10/Mar/2025 16:08:49] "GET / HTTP/1.1" 200 -
+2025-03-10 16:08:49,318 - INFO - 127.0.0.1 - - [10/Mar/2025 16:08:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-10 16:08:49,485 - INFO - 127.0.0.1 - - [10/Mar/2025 16:08:49] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-10 16:08:49,567 - INFO - 127.0.0.1 - - [10/Mar/2025 16:08:49] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-03-10 16:08:49,567 - INFO - 127.0.0.1 - - [10/Mar/2025 16:08:49] "GET /socket.io/?EIO=4&transport=polling&t=PM0qEXF HTTP/1.1" 200 -
+2025-03-10 16:08:49,791 - INFO - 127.0.0.1 - - [10/Mar/2025 16:08:49] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:08:49,875 - INFO - 127.0.0.1 - - [10/Mar/2025 16:08:49] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:08:49,876 - INFO - 127.0.0.1 - - [10/Mar/2025 16:08:49] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:08:49,878 - INFO - Client connected
+2025-03-10 16:08:49,879 - INFO - 127.0.0.1 - - [10/Mar/2025 16:08:49] "POST /socket.io/?EIO=4&transport=polling&t=PM0qEYZ&sid=h84ARz8mWiobPcj_AAAG HTTP/1.1" 200 -
+2025-03-10 16:08:49,880 - INFO - 127.0.0.1 - - [10/Mar/2025 16:08:49] "GET /socket.io/?EIO=4&transport=polling&t=PM0qEYa&sid=h84ARz8mWiobPcj_AAAG HTTP/1.1" 200 -
+2025-03-10 16:08:54,574 - INFO - 127.0.0.1 - - [10/Mar/2025 16:08:54] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:08:59,893 - INFO - 127.0.0.1 - - [10/Mar/2025 16:08:59] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:08:59,898 - INFO - 127.0.0.1 - - [10/Mar/2025 16:08:59] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:08:59,898 - INFO - 127.0.0.1 - - [10/Mar/2025 16:08:59] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:09:04,575 - INFO - 127.0.0.1 - - [10/Mar/2025 16:09:04] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:09:09,884 - INFO - 127.0.0.1 - - [10/Mar/2025 16:09:09] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:09:09,885 - INFO - 127.0.0.1 - - [10/Mar/2025 16:09:09] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:09:09,886 - INFO - 127.0.0.1 - - [10/Mar/2025 16:09:09] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:09:14,578 - INFO - 127.0.0.1 - - [10/Mar/2025 16:09:14] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:09:19,891 - INFO - 127.0.0.1 - - [10/Mar/2025 16:09:19] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:09:19,891 - INFO - 127.0.0.1 - - [10/Mar/2025 16:09:19] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:09:19,892 - INFO - 127.0.0.1 - - [10/Mar/2025 16:09:19] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:09:24,583 - INFO - 127.0.0.1 - - [10/Mar/2025 16:09:24] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:09:29,893 - INFO - 127.0.0.1 - - [10/Mar/2025 16:09:29] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:09:29,894 - INFO - 127.0.0.1 - - [10/Mar/2025 16:09:29] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:09:29,894 - INFO - 127.0.0.1 - - [10/Mar/2025 16:09:29] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:09:34,587 - INFO - 127.0.0.1 - - [10/Mar/2025 16:09:34] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:09:39,892 - INFO - 127.0.0.1 - - [10/Mar/2025 16:09:39] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:09:39,893 - INFO - 127.0.0.1 - - [10/Mar/2025 16:09:39] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:09:39,894 - INFO - 127.0.0.1 - - [10/Mar/2025 16:09:39] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:09:44,577 - INFO - 127.0.0.1 - - [10/Mar/2025 16:09:44] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:09:49,881 - INFO - 127.0.0.1 - - [10/Mar/2025 16:09:49] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:09:49,882 - INFO - 127.0.0.1 - - [10/Mar/2025 16:09:49] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:09:49,883 - INFO - 127.0.0.1 - - [10/Mar/2025 16:09:49] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:09:54,580 - INFO - 127.0.0.1 - - [10/Mar/2025 16:09:54] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:09:59,881 - INFO - 127.0.0.1 - - [10/Mar/2025 16:09:59] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:09:59,881 - INFO - 127.0.0.1 - - [10/Mar/2025 16:09:59] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:09:59,883 - INFO - 127.0.0.1 - - [10/Mar/2025 16:09:59] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:10:04,576 - INFO - 127.0.0.1 - - [10/Mar/2025 16:10:04] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:10:09,889 - INFO - 127.0.0.1 - - [10/Mar/2025 16:10:09] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:10:09,889 - INFO - 127.0.0.1 - - [10/Mar/2025 16:10:09] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:10:09,891 - INFO - 127.0.0.1 - - [10/Mar/2025 16:10:09] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:10:14,586 - INFO - 127.0.0.1 - - [10/Mar/2025 16:10:14] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:10:19,891 - INFO - 127.0.0.1 - - [10/Mar/2025 16:10:19] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:10:19,892 - INFO - 127.0.0.1 - - [10/Mar/2025 16:10:19] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:10:19,893 - INFO - 127.0.0.1 - - [10/Mar/2025 16:10:19] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:10:24,583 - INFO - 127.0.0.1 - - [10/Mar/2025 16:10:24] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:10:29,881 - INFO - 127.0.0.1 - - [10/Mar/2025 16:10:29] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:10:29,882 - INFO - 127.0.0.1 - - [10/Mar/2025 16:10:29] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:10:29,884 - INFO - 127.0.0.1 - - [10/Mar/2025 16:10:29] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:10:34,579 - INFO - 127.0.0.1 - - [10/Mar/2025 16:10:34] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:10:39,892 - INFO - 127.0.0.1 - - [10/Mar/2025 16:10:39] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:10:39,895 - INFO - 127.0.0.1 - - [10/Mar/2025 16:10:39] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:10:39,898 - INFO - 127.0.0.1 - - [10/Mar/2025 16:10:39] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:10:44,580 - INFO - 127.0.0.1 - - [10/Mar/2025 16:10:44] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:10:49,888 - INFO - 127.0.0.1 - - [10/Mar/2025 16:10:49] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:10:49,889 - INFO - 127.0.0.1 - - [10/Mar/2025 16:10:49] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:10:49,890 - INFO - 127.0.0.1 - - [10/Mar/2025 16:10:49] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:10:54,585 - INFO - 127.0.0.1 - - [10/Mar/2025 16:10:54] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:10:59,895 - INFO - 127.0.0.1 - - [10/Mar/2025 16:10:59] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:10:59,896 - INFO - 127.0.0.1 - - [10/Mar/2025 16:10:59] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:10:59,897 - INFO - 127.0.0.1 - - [10/Mar/2025 16:10:59] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:11:04,580 - INFO - 127.0.0.1 - - [10/Mar/2025 16:11:04] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:11:09,895 - INFO - 127.0.0.1 - - [10/Mar/2025 16:11:09] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:11:09,896 - INFO - 127.0.0.1 - - [10/Mar/2025 16:11:09] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:11:09,897 - INFO - 127.0.0.1 - - [10/Mar/2025 16:11:09] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:11:14,577 - INFO - 127.0.0.1 - - [10/Mar/2025 16:11:14] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:11:19,891 - INFO - 127.0.0.1 - - [10/Mar/2025 16:11:19] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:11:19,892 - INFO - 127.0.0.1 - - [10/Mar/2025 16:11:19] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:11:19,893 - INFO - 127.0.0.1 - - [10/Mar/2025 16:11:19] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:11:21,308 - WARNING - ALERT: Port Scan Detection - 69.52.6.241 - medium severity
+2025-03-10 16:11:21,308 - WARNING - ALERT: Port Scan Detection - 69.52.6.241 - medium severity
+2025-03-10 16:11:24,580 - INFO - 127.0.0.1 - - [10/Mar/2025 16:11:24] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:11:29,888 - INFO - 127.0.0.1 - - [10/Mar/2025 16:11:29] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:11:29,889 - INFO - 127.0.0.1 - - [10/Mar/2025 16:11:29] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:11:29,890 - INFO - 127.0.0.1 - - [10/Mar/2025 16:11:29] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:11:34,589 - INFO - 127.0.0.1 - - [10/Mar/2025 16:11:34] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:11:37,849 - WARNING - ALERT: Port Scan Detection - 90.33.43.173 - medium severity
+2025-03-10 16:11:37,857 - WARNING - ALERT: Port Scan Detection - 90.33.43.173 - medium severity
+2025-03-10 16:11:39,897 - INFO - 127.0.0.1 - - [10/Mar/2025 16:11:39] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:11:39,898 - INFO - 127.0.0.1 - - [10/Mar/2025 16:11:39] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:11:39,899 - INFO - 127.0.0.1 - - [10/Mar/2025 16:11:39] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:11:44,588 - INFO - 127.0.0.1 - - [10/Mar/2025 16:11:44] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:11:49,892 - INFO - 127.0.0.1 - - [10/Mar/2025 16:11:49] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:11:49,892 - INFO - 127.0.0.1 - - [10/Mar/2025 16:11:49] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:11:49,894 - INFO - 127.0.0.1 - - [10/Mar/2025 16:11:49] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:11:54,586 - INFO - 127.0.0.1 - - [10/Mar/2025 16:11:54] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:11:59,881 - INFO - 127.0.0.1 - - [10/Mar/2025 16:11:59] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:11:59,882 - INFO - 127.0.0.1 - - [10/Mar/2025 16:11:59] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:11:59,883 - INFO - 127.0.0.1 - - [10/Mar/2025 16:11:59] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:12:04,573 - INFO - 127.0.0.1 - - [10/Mar/2025 16:12:04] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:12:10,549 - INFO - 127.0.0.1 - - [10/Mar/2025 16:12:10] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:12:10,552 - INFO - 127.0.0.1 - - [10/Mar/2025 16:12:10] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:12:10,553 - INFO - 127.0.0.1 - - [10/Mar/2025 16:12:10] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:12:10,620 - INFO - SIEM state saved to siem_state.json
+2025-03-10 16:12:10,658 - INFO - SIEM service stopped
+2025-03-10 16:12:10,936 - INFO - Log generator stopped
+2025-03-10 16:12:10,980 - INFO - SIEM state saved to siem_state.json
+2025-03-10 16:12:11,035 - INFO - Log generator stopped
+2025-03-10 16:21:43,988 - INFO - Logging initialized
+2025-03-10 16:21:43,988 - INFO - SIEM Dashboard starting up...
+2025-03-10 16:21:43,988 - INFO - Generating static files for the web interface
+2025-03-10 16:21:43,991 - INFO - Static file generation complete
+2025-03-10 16:21:44,018 - INFO - SIEM state loaded from siem_state.json
+2025-03-10 16:21:44,019 - INFO - Log generator started
+2025-03-10 16:21:44,020 - INFO - Log generator thread started
+2025-03-10 16:21:44,020 - INFO - Starting SIEM service
+2025-03-10 16:21:44,021 - INFO - Web server initialized with SIEM instance
+2025-03-10 16:21:44,021 - INFO - Starting web server at http://0.0.0.0:5000
+2025-03-10 16:21:44,048 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.66:5000
+2025-03-10 16:21:44,048 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-10 16:21:44,048 - INFO -  * Restarting with stat
+2025-03-10 16:21:44,431 - INFO - Logging initialized
+2025-03-10 16:21:44,431 - INFO - SIEM Dashboard starting up...
+2025-03-10 16:21:44,432 - INFO - Generating static files for the web interface
+2025-03-10 16:21:44,435 - INFO - Static file generation complete
+2025-03-10 16:21:44,436 - INFO - SIEM state loaded from siem_state.json
+2025-03-10 16:21:44,438 - INFO - Log generator started
+2025-03-10 16:21:44,438 - INFO - Log generator thread started
+2025-03-10 16:21:44,438 - INFO - Starting SIEM service
+2025-03-10 16:21:44,438 - INFO - Web server initialized with SIEM instance
+2025-03-10 16:21:44,439 - INFO - Starting web server at http://0.0.0.0:5000
+2025-03-10 16:21:44,450 - WARNING -  * Debugger is active!
+2025-03-10 16:21:44,453 - INFO -  * Debugger PIN: 378-706-702
+2025-03-10 16:21:47,962 - INFO - 127.0.0.1 - - [10/Mar/2025 16:21:47] "GET / HTTP/1.1" 200 -
+2025-03-10 16:21:48,075 - INFO - 127.0.0.1 - - [10/Mar/2025 16:21:48] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-03-10 16:21:48,209 - INFO - 127.0.0.1 - - [10/Mar/2025 16:21:48] "GET /static/js/main.js HTTP/1.1" 200 -
+2025-03-10 16:21:48,330 - INFO - 127.0.0.1 - - [10/Mar/2025 16:21:48] "GET /static/js/dashboard.js HTTP/1.1" 200 -
+2025-03-10 16:21:48,540 - INFO - 127.0.0.1 - - [10/Mar/2025 16:21:48] "GET /socket.io/?EIO=4&transport=polling&t=PM0tCew HTTP/1.1" 200 -
+2025-03-10 16:21:48,644 - INFO - 127.0.0.1 - - [10/Mar/2025 16:21:48] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:21:48,645 - INFO - 127.0.0.1 - - [10/Mar/2025 16:21:48] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:21:48,648 - INFO - 127.0.0.1 - - [10/Mar/2025 16:21:48] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:21:48,693 - INFO - 127.0.0.1 - - [10/Mar/2025 16:21:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-10 16:21:48,852 - INFO - Client connected
+2025-03-10 16:21:48,853 - INFO - 127.0.0.1 - - [10/Mar/2025 16:21:48] "POST /socket.io/?EIO=4&transport=polling&t=PM0tCj-&sid=OtcK_KD78C1RJAgQAAAA HTTP/1.1" 200 -
+2025-03-10 16:21:48,854 - INFO - 127.0.0.1 - - [10/Mar/2025 16:21:48] "GET /socket.io/?EIO=4&transport=polling&t=PM0tCj_&sid=OtcK_KD78C1RJAgQAAAA HTTP/1.1" 200 -
+2025-03-10 16:21:49,168 - INFO - 127.0.0.1 - - [10/Mar/2025 16:21:49] "GET /socket.io/?EIO=4&transport=polling&t=PM0tCou&sid=OtcK_KD78C1RJAgQAAAA HTTP/1.1" 200 -
+2025-03-10 16:21:53,339 - INFO - 127.0.0.1 - - [10/Mar/2025 16:21:53] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:21:58,654 - INFO - 127.0.0.1 - - [10/Mar/2025 16:21:58] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:21:58,654 - INFO - 127.0.0.1 - - [10/Mar/2025 16:21:58] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:21:58,655 - INFO - 127.0.0.1 - - [10/Mar/2025 16:21:58] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:22:03,353 - INFO - 127.0.0.1 - - [10/Mar/2025 16:22:03] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:22:08,654 - INFO - 127.0.0.1 - - [10/Mar/2025 16:22:08] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:22:08,657 - INFO - 127.0.0.1 - - [10/Mar/2025 16:22:08] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:22:08,660 - INFO - 127.0.0.1 - - [10/Mar/2025 16:22:08] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:22:13,351 - INFO - 127.0.0.1 - - [10/Mar/2025 16:22:13] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:22:18,656 - INFO - 127.0.0.1 - - [10/Mar/2025 16:22:18] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:22:18,657 - INFO - 127.0.0.1 - - [10/Mar/2025 16:22:18] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:22:18,660 - INFO - 127.0.0.1 - - [10/Mar/2025 16:22:18] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:22:23,354 - INFO - 127.0.0.1 - - [10/Mar/2025 16:22:23] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:22:28,658 - INFO - 127.0.0.1 - - [10/Mar/2025 16:22:28] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:22:28,658 - INFO - 127.0.0.1 - - [10/Mar/2025 16:22:28] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:22:28,659 - INFO - 127.0.0.1 - - [10/Mar/2025 16:22:28] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:22:33,349 - INFO - 127.0.0.1 - - [10/Mar/2025 16:22:33] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:22:38,660 - INFO - 127.0.0.1 - - [10/Mar/2025 16:22:38] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:22:38,662 - INFO - 127.0.0.1 - - [10/Mar/2025 16:22:38] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:22:38,664 - INFO - 127.0.0.1 - - [10/Mar/2025 16:22:38] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:22:43,351 - INFO - 127.0.0.1 - - [10/Mar/2025 16:22:43] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:22:48,654 - INFO - 127.0.0.1 - - [10/Mar/2025 16:22:48] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:22:48,655 - INFO - 127.0.0.1 - - [10/Mar/2025 16:22:48] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:22:48,655 - INFO - 127.0.0.1 - - [10/Mar/2025 16:22:48] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:22:53,351 - INFO - 127.0.0.1 - - [10/Mar/2025 16:22:53] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:22:58,647 - INFO - 127.0.0.1 - - [10/Mar/2025 16:22:58] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:22:58,647 - INFO - 127.0.0.1 - - [10/Mar/2025 16:22:58] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:22:58,648 - INFO - 127.0.0.1 - - [10/Mar/2025 16:22:58] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:23:03,358 - INFO - 127.0.0.1 - - [10/Mar/2025 16:23:03] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:23:08,651 - INFO - 127.0.0.1 - - [10/Mar/2025 16:23:08] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:23:08,652 - INFO - 127.0.0.1 - - [10/Mar/2025 16:23:08] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:23:08,653 - INFO - 127.0.0.1 - - [10/Mar/2025 16:23:08] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:23:13,350 - INFO - 127.0.0.1 - - [10/Mar/2025 16:23:13] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:23:18,660 - INFO - 127.0.0.1 - - [10/Mar/2025 16:23:18] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:23:18,660 - INFO - 127.0.0.1 - - [10/Mar/2025 16:23:18] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:23:18,662 - INFO - 127.0.0.1 - - [10/Mar/2025 16:23:18] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:23:23,344 - INFO - 127.0.0.1 - - [10/Mar/2025 16:23:23] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:23:28,656 - INFO - 127.0.0.1 - - [10/Mar/2025 16:23:28] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:23:28,656 - INFO - 127.0.0.1 - - [10/Mar/2025 16:23:28] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:23:28,657 - INFO - 127.0.0.1 - - [10/Mar/2025 16:23:28] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:23:33,347 - INFO - 127.0.0.1 - - [10/Mar/2025 16:23:33] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:23:38,652 - INFO - 127.0.0.1 - - [10/Mar/2025 16:23:38] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:23:38,653 - INFO - 127.0.0.1 - - [10/Mar/2025 16:23:38] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:23:38,653 - INFO - 127.0.0.1 - - [10/Mar/2025 16:23:38] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:23:43,348 - INFO - 127.0.0.1 - - [10/Mar/2025 16:23:43] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:23:48,652 - INFO - 127.0.0.1 - - [10/Mar/2025 16:23:48] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:23:48,653 - INFO - 127.0.0.1 - - [10/Mar/2025 16:23:48] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:23:48,654 - INFO - 127.0.0.1 - - [10/Mar/2025 16:23:48] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:23:53,345 - INFO - 127.0.0.1 - - [10/Mar/2025 16:23:53] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:23:58,668 - INFO - 127.0.0.1 - - [10/Mar/2025 16:23:58] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:23:58,670 - INFO - 127.0.0.1 - - [10/Mar/2025 16:23:58] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:23:58,673 - INFO - 127.0.0.1 - - [10/Mar/2025 16:23:58] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:24:03,339 - INFO - 127.0.0.1 - - [10/Mar/2025 16:24:03] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:24:08,648 - INFO - 127.0.0.1 - - [10/Mar/2025 16:24:08] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:24:08,649 - INFO - 127.0.0.1 - - [10/Mar/2025 16:24:08] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:24:08,650 - INFO - 127.0.0.1 - - [10/Mar/2025 16:24:08] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:24:13,348 - INFO - 127.0.0.1 - - [10/Mar/2025 16:24:13] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:24:18,651 - INFO - 127.0.0.1 - - [10/Mar/2025 16:24:18] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:24:18,652 - INFO - 127.0.0.1 - - [10/Mar/2025 16:24:18] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:24:18,653 - INFO - 127.0.0.1 - - [10/Mar/2025 16:24:18] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:24:23,348 - INFO - 127.0.0.1 - - [10/Mar/2025 16:24:23] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:24:28,657 - INFO - 127.0.0.1 - - [10/Mar/2025 16:24:28] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:24:28,658 - INFO - 127.0.0.1 - - [10/Mar/2025 16:24:28] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:24:28,659 - INFO - 127.0.0.1 - - [10/Mar/2025 16:24:28] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:24:33,354 - INFO - 127.0.0.1 - - [10/Mar/2025 16:24:33] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:24:38,664 - INFO - 127.0.0.1 - - [10/Mar/2025 16:24:38] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:24:38,666 - INFO - 127.0.0.1 - - [10/Mar/2025 16:24:38] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:24:38,668 - INFO - 127.0.0.1 - - [10/Mar/2025 16:24:38] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:24:43,349 - INFO - 127.0.0.1 - - [10/Mar/2025 16:24:43] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:24:48,657 - INFO - 127.0.0.1 - - [10/Mar/2025 16:24:48] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:24:48,658 - INFO - 127.0.0.1 - - [10/Mar/2025 16:24:48] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:24:48,659 - INFO - 127.0.0.1 - - [10/Mar/2025 16:24:48] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:24:53,348 - INFO - 127.0.0.1 - - [10/Mar/2025 16:24:53] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:24:58,663 - INFO - 127.0.0.1 - - [10/Mar/2025 16:24:58] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:24:58,664 - INFO - 127.0.0.1 - - [10/Mar/2025 16:24:58] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:24:58,664 - INFO - 127.0.0.1 - - [10/Mar/2025 16:24:58] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:25:03,347 - INFO - 127.0.0.1 - - [10/Mar/2025 16:25:03] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:25:08,655 - INFO - 127.0.0.1 - - [10/Mar/2025 16:25:08] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:25:08,656 - INFO - 127.0.0.1 - - [10/Mar/2025 16:25:08] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:25:08,659 - INFO - 127.0.0.1 - - [10/Mar/2025 16:25:08] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:25:13,348 - INFO - 127.0.0.1 - - [10/Mar/2025 16:25:13] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:25:18,655 - INFO - 127.0.0.1 - - [10/Mar/2025 16:25:18] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:25:18,659 - INFO - 127.0.0.1 - - [10/Mar/2025 16:25:18] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:25:18,662 - INFO - 127.0.0.1 - - [10/Mar/2025 16:25:18] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:25:23,345 - INFO - 127.0.0.1 - - [10/Mar/2025 16:25:23] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:25:28,654 - INFO - 127.0.0.1 - - [10/Mar/2025 16:25:28] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:25:28,656 - INFO - 127.0.0.1 - - [10/Mar/2025 16:25:28] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:25:28,659 - INFO - 127.0.0.1 - - [10/Mar/2025 16:25:28] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:25:33,349 - INFO - 127.0.0.1 - - [10/Mar/2025 16:25:33] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:25:38,649 - INFO - 127.0.0.1 - - [10/Mar/2025 16:25:38] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:25:38,649 - INFO - 127.0.0.1 - - [10/Mar/2025 16:25:38] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:25:38,650 - INFO - 127.0.0.1 - - [10/Mar/2025 16:25:38] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:25:43,348 - INFO - 127.0.0.1 - - [10/Mar/2025 16:25:43] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:25:48,662 - INFO - 127.0.0.1 - - [10/Mar/2025 16:25:48] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:25:48,663 - INFO - 127.0.0.1 - - [10/Mar/2025 16:25:48] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:25:48,663 - INFO - 127.0.0.1 - - [10/Mar/2025 16:25:48] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:25:53,356 - INFO - 127.0.0.1 - - [10/Mar/2025 16:25:53] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:25:58,657 - INFO - 127.0.0.1 - - [10/Mar/2025 16:25:58] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:25:58,658 - INFO - 127.0.0.1 - - [10/Mar/2025 16:25:58] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:25:58,659 - INFO - 127.0.0.1 - - [10/Mar/2025 16:25:58] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:26:03,339 - INFO - 127.0.0.1 - - [10/Mar/2025 16:26:03] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:26:08,656 - INFO - 127.0.0.1 - - [10/Mar/2025 16:26:08] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:26:08,659 - INFO - 127.0.0.1 - - [10/Mar/2025 16:26:08] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:26:08,662 - INFO - 127.0.0.1 - - [10/Mar/2025 16:26:08] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:26:13,353 - INFO - 127.0.0.1 - - [10/Mar/2025 16:26:13] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:26:18,658 - INFO - 127.0.0.1 - - [10/Mar/2025 16:26:18] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:26:18,659 - INFO - 127.0.0.1 - - [10/Mar/2025 16:26:18] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:26:18,660 - INFO - 127.0.0.1 - - [10/Mar/2025 16:26:18] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:26:23,357 - INFO - 127.0.0.1 - - [10/Mar/2025 16:26:23] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:26:28,657 - INFO - 127.0.0.1 - - [10/Mar/2025 16:26:28] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:26:28,657 - INFO - 127.0.0.1 - - [10/Mar/2025 16:26:28] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:26:28,658 - INFO - 127.0.0.1 - - [10/Mar/2025 16:26:28] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:26:33,352 - INFO - 127.0.0.1 - - [10/Mar/2025 16:26:33] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:26:38,650 - INFO - 127.0.0.1 - - [10/Mar/2025 16:26:38] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:26:38,652 - INFO - 127.0.0.1 - - [10/Mar/2025 16:26:38] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:26:38,653 - INFO - 127.0.0.1 - - [10/Mar/2025 16:26:38] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:26:43,342 - INFO - 127.0.0.1 - - [10/Mar/2025 16:26:43] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:26:48,657 - INFO - 127.0.0.1 - - [10/Mar/2025 16:26:48] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:26:48,657 - INFO - 127.0.0.1 - - [10/Mar/2025 16:26:48] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:26:48,659 - INFO - 127.0.0.1 - - [10/Mar/2025 16:26:48] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:26:53,354 - INFO - 127.0.0.1 - - [10/Mar/2025 16:26:53] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:26:58,657 - INFO - 127.0.0.1 - - [10/Mar/2025 16:26:58] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:26:58,658 - INFO - 127.0.0.1 - - [10/Mar/2025 16:26:58] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:26:58,659 - INFO - 127.0.0.1 - - [10/Mar/2025 16:26:58] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:27:03,352 - INFO - 127.0.0.1 - - [10/Mar/2025 16:27:03] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:27:08,652 - INFO - 127.0.0.1 - - [10/Mar/2025 16:27:08] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:27:08,653 - INFO - 127.0.0.1 - - [10/Mar/2025 16:27:08] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:27:08,655 - INFO - 127.0.0.1 - - [10/Mar/2025 16:27:08] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:27:13,343 - INFO - 127.0.0.1 - - [10/Mar/2025 16:27:13] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:27:18,660 - INFO - 127.0.0.1 - - [10/Mar/2025 16:27:18] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:27:18,661 - INFO - 127.0.0.1 - - [10/Mar/2025 16:27:18] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:27:18,663 - INFO - 127.0.0.1 - - [10/Mar/2025 16:27:18] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:27:23,349 - INFO - 127.0.0.1 - - [10/Mar/2025 16:27:23] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:27:28,661 - INFO - 127.0.0.1 - - [10/Mar/2025 16:27:28] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:27:28,664 - INFO - 127.0.0.1 - - [10/Mar/2025 16:27:28] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:27:28,669 - INFO - 127.0.0.1 - - [10/Mar/2025 16:27:28] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:27:33,358 - INFO - 127.0.0.1 - - [10/Mar/2025 16:27:33] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:27:38,646 - INFO - 127.0.0.1 - - [10/Mar/2025 16:27:38] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:27:38,647 - INFO - 127.0.0.1 - - [10/Mar/2025 16:27:38] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:27:38,649 - INFO - 127.0.0.1 - - [10/Mar/2025 16:27:38] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:27:43,349 - INFO - 127.0.0.1 - - [10/Mar/2025 16:27:43] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:27:48,654 - INFO - 127.0.0.1 - - [10/Mar/2025 16:27:48] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:27:48,654 - INFO - 127.0.0.1 - - [10/Mar/2025 16:27:48] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:27:48,655 - INFO - 127.0.0.1 - - [10/Mar/2025 16:27:48] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:27:53,353 - INFO - 127.0.0.1 - - [10/Mar/2025 16:27:53] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:27:55,216 - WARNING - ALERT: Port Scan Detection - 182.209.218.96 - medium severity
+2025-03-10 16:27:55,223 - WARNING - ALERT: Port Scan Detection - 182.209.218.96 - medium severity
+2025-03-10 16:27:58,656 - INFO - 127.0.0.1 - - [10/Mar/2025 16:27:58] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:27:58,658 - INFO - 127.0.0.1 - - [10/Mar/2025 16:27:58] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:27:58,659 - INFO - 127.0.0.1 - - [10/Mar/2025 16:27:58] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:28:02,890 - WARNING - ALERT: Port Scan Detection - 215.216.10.209 - medium severity
+2025-03-10 16:28:02,900 - WARNING - ALERT: Port Scan Detection - 215.216.10.209 - medium severity
+2025-03-10 16:28:03,348 - INFO - 127.0.0.1 - - [10/Mar/2025 16:28:03] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:28:06,810 - WARNING - ALERT: Brute Force Attack - 152.80.170.200 - high severity
+2025-03-10 16:28:06,815 - WARNING - ALERT: Brute Force Attack - 152.80.170.200 - high severity
+2025-03-10 16:28:07,997 - WARNING - ALERT: Brute Force Attack - 229.223.137.194 - high severity
+2025-03-10 16:28:08,644 - INFO - 127.0.0.1 - - [10/Mar/2025 16:28:08] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:28:08,645 - INFO - 127.0.0.1 - - [10/Mar/2025 16:28:08] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:28:08,646 - INFO - 127.0.0.1 - - [10/Mar/2025 16:28:08] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:28:13,340 - INFO - 127.0.0.1 - - [10/Mar/2025 16:28:13] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:28:18,659 - INFO - 127.0.0.1 - - [10/Mar/2025 16:28:18] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:28:18,662 - INFO - 127.0.0.1 - - [10/Mar/2025 16:28:18] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:28:18,667 - INFO - 127.0.0.1 - - [10/Mar/2025 16:28:18] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:28:23,342 - INFO - 127.0.0.1 - - [10/Mar/2025 16:28:23] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:28:28,650 - INFO - 127.0.0.1 - - [10/Mar/2025 16:28:28] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:28:28,654 - INFO - 127.0.0.1 - - [10/Mar/2025 16:28:28] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:28:28,657 - INFO - 127.0.0.1 - - [10/Mar/2025 16:28:28] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:28:33,349 - INFO - 127.0.0.1 - - [10/Mar/2025 16:28:33] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:28:38,657 - INFO - 127.0.0.1 - - [10/Mar/2025 16:28:38] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:28:38,658 - INFO - 127.0.0.1 - - [10/Mar/2025 16:28:38] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:28:38,659 - INFO - 127.0.0.1 - - [10/Mar/2025 16:28:38] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:28:43,343 - INFO - 127.0.0.1 - - [10/Mar/2025 16:28:43] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:28:48,656 - INFO - 127.0.0.1 - - [10/Mar/2025 16:28:48] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:28:48,657 - INFO - 127.0.0.1 - - [10/Mar/2025 16:28:48] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:28:48,658 - INFO - 127.0.0.1 - - [10/Mar/2025 16:28:48] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:28:53,356 - INFO - 127.0.0.1 - - [10/Mar/2025 16:28:53] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:28:58,651 - INFO - 127.0.0.1 - - [10/Mar/2025 16:28:58] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:28:58,652 - INFO - 127.0.0.1 - - [10/Mar/2025 16:28:58] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:28:58,653 - INFO - 127.0.0.1 - - [10/Mar/2025 16:28:58] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:29:03,356 - INFO - 127.0.0.1 - - [10/Mar/2025 16:29:03] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:29:08,654 - INFO - 127.0.0.1 - - [10/Mar/2025 16:29:08] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:29:08,655 - INFO - 127.0.0.1 - - [10/Mar/2025 16:29:08] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:29:08,656 - INFO - 127.0.0.1 - - [10/Mar/2025 16:29:08] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:29:13,342 - INFO - 127.0.0.1 - - [10/Mar/2025 16:29:13] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:29:18,668 - INFO - 127.0.0.1 - - [10/Mar/2025 16:29:18] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:29:18,669 - INFO - 127.0.0.1 - - [10/Mar/2025 16:29:18] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:29:18,671 - INFO - 127.0.0.1 - - [10/Mar/2025 16:29:18] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:29:23,345 - INFO - 127.0.0.1 - - [10/Mar/2025 16:29:23] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:29:28,661 - INFO - 127.0.0.1 - - [10/Mar/2025 16:29:28] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:29:28,663 - INFO - 127.0.0.1 - - [10/Mar/2025 16:29:28] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:29:28,664 - INFO - 127.0.0.1 - - [10/Mar/2025 16:29:28] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:29:33,347 - INFO - 127.0.0.1 - - [10/Mar/2025 16:29:33] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:29:38,650 - INFO - 127.0.0.1 - - [10/Mar/2025 16:29:38] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:29:38,651 - INFO - 127.0.0.1 - - [10/Mar/2025 16:29:38] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:29:38,652 - INFO - 127.0.0.1 - - [10/Mar/2025 16:29:38] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:29:43,355 - INFO - 127.0.0.1 - - [10/Mar/2025 16:29:43] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:29:48,650 - INFO - 127.0.0.1 - - [10/Mar/2025 16:29:48] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:29:48,651 - INFO - 127.0.0.1 - - [10/Mar/2025 16:29:48] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:29:48,653 - INFO - 127.0.0.1 - - [10/Mar/2025 16:29:48] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:29:53,352 - INFO - 127.0.0.1 - - [10/Mar/2025 16:29:53] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:29:57,055 - WARNING - ALERT: Suspicious Process - cmd.exe - high severity
+2025-03-10 16:29:58,657 - INFO - 127.0.0.1 - - [10/Mar/2025 16:29:58] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:29:58,658 - INFO - 127.0.0.1 - - [10/Mar/2025 16:29:58] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:29:58,659 - INFO - 127.0.0.1 - - [10/Mar/2025 16:29:58] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:30:03,339 - INFO - 127.0.0.1 - - [10/Mar/2025 16:30:03] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:30:08,658 - INFO - 127.0.0.1 - - [10/Mar/2025 16:30:08] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:30:08,659 - INFO - 127.0.0.1 - - [10/Mar/2025 16:30:08] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:30:08,660 - INFO - 127.0.0.1 - - [10/Mar/2025 16:30:08] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:30:08,774 - WARNING - ALERT: Brute Force Attack - 104.191.151.179 - high severity
+2025-03-10 16:30:13,339 - INFO - 127.0.0.1 - - [10/Mar/2025 16:30:13] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:30:13,972 - WARNING - ALERT: Brute Force Attack - 182.209.218.96 - high severity
+2025-03-10 16:30:13,972 - WARNING - ALERT: Brute Force Attack - 182.209.218.96 - high severity
+2025-03-10 16:30:18,662 - INFO - 127.0.0.1 - - [10/Mar/2025 16:30:18] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:30:18,665 - INFO - 127.0.0.1 - - [10/Mar/2025 16:30:18] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:30:18,671 - INFO - 127.0.0.1 - - [10/Mar/2025 16:30:18] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:30:23,347 - INFO - 127.0.0.1 - - [10/Mar/2025 16:30:23] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:30:28,663 - INFO - 127.0.0.1 - - [10/Mar/2025 16:30:28] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:30:28,666 - INFO - 127.0.0.1 - - [10/Mar/2025 16:30:28] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:30:28,670 - INFO - 127.0.0.1 - - [10/Mar/2025 16:30:28] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:30:33,342 - INFO - 127.0.0.1 - - [10/Mar/2025 16:30:33] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:30:38,651 - INFO - 127.0.0.1 - - [10/Mar/2025 16:30:38] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:30:38,651 - INFO - 127.0.0.1 - - [10/Mar/2025 16:30:38] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:30:38,652 - INFO - 127.0.0.1 - - [10/Mar/2025 16:30:38] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:30:43,356 - INFO - 127.0.0.1 - - [10/Mar/2025 16:30:43] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:30:48,654 - INFO - 127.0.0.1 - - [10/Mar/2025 16:30:48] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:30:48,655 - INFO - 127.0.0.1 - - [10/Mar/2025 16:30:48] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:30:48,656 - INFO - 127.0.0.1 - - [10/Mar/2025 16:30:48] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:30:53,343 - INFO - 127.0.0.1 - - [10/Mar/2025 16:30:53] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:30:58,660 - INFO - 127.0.0.1 - - [10/Mar/2025 16:30:58] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:30:58,660 - INFO - 127.0.0.1 - - [10/Mar/2025 16:30:58] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:30:58,662 - INFO - 127.0.0.1 - - [10/Mar/2025 16:30:58] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:31:03,346 - INFO - 127.0.0.1 - - [10/Mar/2025 16:31:03] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:31:08,662 - INFO - 127.0.0.1 - - [10/Mar/2025 16:31:08] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:31:08,665 - INFO - 127.0.0.1 - - [10/Mar/2025 16:31:08] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:31:08,668 - INFO - 127.0.0.1 - - [10/Mar/2025 16:31:08] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:31:12,679 - WARNING - ALERT: Port Scan Detection - 30.212.9.189 - medium severity
+2025-03-10 16:31:12,689 - WARNING - ALERT: Port Scan Detection - 30.212.9.189 - medium severity
+2025-03-10 16:31:13,348 - INFO - 127.0.0.1 - - [10/Mar/2025 16:31:13] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:31:18,657 - INFO - 127.0.0.1 - - [10/Mar/2025 16:31:18] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:31:18,659 - INFO - 127.0.0.1 - - [10/Mar/2025 16:31:18] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:31:18,663 - INFO - 127.0.0.1 - - [10/Mar/2025 16:31:18] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:31:23,347 - INFO - 127.0.0.1 - - [10/Mar/2025 16:31:23] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:31:28,657 - INFO - 127.0.0.1 - - [10/Mar/2025 16:31:28] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:31:28,658 - INFO - 127.0.0.1 - - [10/Mar/2025 16:31:28] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:31:28,660 - INFO - 127.0.0.1 - - [10/Mar/2025 16:31:28] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:31:33,343 - INFO - 127.0.0.1 - - [10/Mar/2025 16:31:33] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:31:38,657 - INFO - 127.0.0.1 - - [10/Mar/2025 16:31:38] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:31:38,661 - INFO - 127.0.0.1 - - [10/Mar/2025 16:31:38] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:31:38,665 - INFO - 127.0.0.1 - - [10/Mar/2025 16:31:38] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:31:43,344 - INFO - 127.0.0.1 - - [10/Mar/2025 16:31:43] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:31:48,658 - INFO - 127.0.0.1 - - [10/Mar/2025 16:31:48] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:31:48,659 - INFO - 127.0.0.1 - - [10/Mar/2025 16:31:48] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:31:48,659 - INFO - 127.0.0.1 - - [10/Mar/2025 16:31:48] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:31:53,343 - INFO - 127.0.0.1 - - [10/Mar/2025 16:31:53] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:31:55,157 - WARNING - ALERT: Data Exfiltration - 192.168.1.5 - critical severity
+2025-03-10 16:31:58,645 - INFO - 127.0.0.1 - - [10/Mar/2025 16:31:58] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:31:58,645 - INFO - 127.0.0.1 - - [10/Mar/2025 16:31:58] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:31:58,646 - INFO - 127.0.0.1 - - [10/Mar/2025 16:31:58] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:32:03,348 - INFO - 127.0.0.1 - - [10/Mar/2025 16:32:03] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:32:08,654 - INFO - 127.0.0.1 - - [10/Mar/2025 16:32:08] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:32:08,658 - INFO - 127.0.0.1 - - [10/Mar/2025 16:32:08] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:32:08,662 - INFO - 127.0.0.1 - - [10/Mar/2025 16:32:08] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:32:10,509 - WARNING - ALERT: Brute Force Attack - 37.241.97.102 - high severity
+2025-03-10 16:32:10,509 - WARNING - ALERT: Brute Force Attack - 37.241.97.102 - high severity
+2025-03-10 16:32:13,342 - INFO - 127.0.0.1 - - [10/Mar/2025 16:32:13] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:32:18,658 - INFO - 127.0.0.1 - - [10/Mar/2025 16:32:18] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:32:18,659 - INFO - 127.0.0.1 - - [10/Mar/2025 16:32:18] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:32:18,660 - INFO - 127.0.0.1 - - [10/Mar/2025 16:32:18] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:32:23,347 - INFO - 127.0.0.1 - - [10/Mar/2025 16:32:23] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:32:25,731 - WARNING - ALERT: Brute Force Attack - 186.1.157.220 - high severity
+2025-03-10 16:32:25,731 - WARNING - ALERT: Brute Force Attack - 186.1.157.220 - high severity
+2025-03-10 16:32:28,655 - INFO - 127.0.0.1 - - [10/Mar/2025 16:32:28] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:32:28,656 - INFO - 127.0.0.1 - - [10/Mar/2025 16:32:28] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:32:28,657 - INFO - 127.0.0.1 - - [10/Mar/2025 16:32:28] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:32:33,353 - INFO - 127.0.0.1 - - [10/Mar/2025 16:32:33] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:32:38,656 - INFO - 127.0.0.1 - - [10/Mar/2025 16:32:38] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:32:38,659 - INFO - 127.0.0.1 - - [10/Mar/2025 16:32:38] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:32:38,665 - INFO - 127.0.0.1 - - [10/Mar/2025 16:32:38] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:32:43,350 - INFO - 127.0.0.1 - - [10/Mar/2025 16:32:43] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:32:48,661 - INFO - 127.0.0.1 - - [10/Mar/2025 16:32:48] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:32:48,662 - INFO - 127.0.0.1 - - [10/Mar/2025 16:32:48] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:32:48,663 - INFO - 127.0.0.1 - - [10/Mar/2025 16:32:48] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:32:53,338 - INFO - 127.0.0.1 - - [10/Mar/2025 16:32:53] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:32:58,646 - INFO - 127.0.0.1 - - [10/Mar/2025 16:32:58] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:32:58,648 - INFO - 127.0.0.1 - - [10/Mar/2025 16:32:58] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:32:58,649 - INFO - 127.0.0.1 - - [10/Mar/2025 16:32:58] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:33:03,351 - INFO - 127.0.0.1 - - [10/Mar/2025 16:33:03] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:33:08,660 - INFO - 127.0.0.1 - - [10/Mar/2025 16:33:08] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:33:08,660 - INFO - 127.0.0.1 - - [10/Mar/2025 16:33:08] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:33:08,661 - INFO - 127.0.0.1 - - [10/Mar/2025 16:33:08] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:33:13,355 - INFO - 127.0.0.1 - - [10/Mar/2025 16:33:13] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:33:18,664 - INFO - 127.0.0.1 - - [10/Mar/2025 16:33:18] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:33:18,668 - INFO - 127.0.0.1 - - [10/Mar/2025 16:33:18] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:33:18,670 - INFO - 127.0.0.1 - - [10/Mar/2025 16:33:18] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:33:23,348 - INFO - 127.0.0.1 - - [10/Mar/2025 16:33:23] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:33:28,664 - INFO - 127.0.0.1 - - [10/Mar/2025 16:33:28] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:33:28,667 - INFO - 127.0.0.1 - - [10/Mar/2025 16:33:28] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:33:28,670 - INFO - 127.0.0.1 - - [10/Mar/2025 16:33:28] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:33:33,342 - INFO - 127.0.0.1 - - [10/Mar/2025 16:33:33] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:33:38,655 - INFO - 127.0.0.1 - - [10/Mar/2025 16:33:38] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:33:38,656 - INFO - 127.0.0.1 - - [10/Mar/2025 16:33:38] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:33:38,657 - INFO - 127.0.0.1 - - [10/Mar/2025 16:33:38] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:33:43,354 - INFO - 127.0.0.1 - - [10/Mar/2025 16:33:43] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:33:48,653 - INFO - 127.0.0.1 - - [10/Mar/2025 16:33:48] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:33:48,654 - INFO - 127.0.0.1 - - [10/Mar/2025 16:33:48] "GET /api/alerts?limit=5&acknowledged=false HTTP/1.1" 200 -
+2025-03-10 16:33:48,656 - INFO - 127.0.0.1 - - [10/Mar/2025 16:33:48] "GET /api/events?limit=5 HTTP/1.1" 200 -
+2025-03-10 16:33:53,342 - INFO - 127.0.0.1 - - [10/Mar/2025 16:33:53] "GET /api/stats HTTP/1.1" 200 -
+2025-03-10 16:33:58,168 - INFO - SIEM state saved to siem_state.json
+2025-03-10 16:33:58,194 - INFO - Log generator stopped
+2025-03-10 16:33:58,256 - INFO - SIEM state saved to siem_state.json
+2025-03-10 16:33:58,290 - INFO - Log generator stopped
